@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#fondo {
+  width: 100%;
+  height: 100%;
+  background-color: #FFE53B;
+  background-image: linear-gradient(270deg, #FFE53B 0%, #FF2525 74%);
+
+
+}
+
+header {
+  width: 100%;
+  height: 10%;
+  background-size: cover;
+  display: flex;
+  position: fixed;
+  flex-direction: column-reverse;
+  background-position: center;
+  border-radius: 0px 0px 30px 30px;
+  background: linear-gradient(90deg, #1A2A6C 0%, #B21F1F 50%, #FDBB2D 100%);
+  mix-blend-mode: normal;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.7s;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  z-index: 10;
+}
+
+.nav {
+  width: 100%;
+  height: 8px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all 0.5s ease;
+
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+  position: static;
+  left: 10px;
+  right: 2075px;
+  top: 11px;
+  bottom: 6062px;
+  border-radius: 65px;
+}
+
+#nombre {
+  width: 120px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: -1px;
+  bottom: 6062px;
+
+}
+
+.menu {
+  display: flex;
+
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+
+}
+
+.menu li a {
+  display: block;
+  position: relative;
+  padding-top: 10px;
+  color: rgb(248, 248, 248);
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-family: Abhaya Libre;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+
+.menu li a:hover {
+  padding: 5px 10px;
+  background-image: radial-gradient(circle at 120.71% 50%, #f5ff26 0, #ffff03 8.33%, #fffb00 16.67%, #ffe700 25%, #ffd100 33.33%, #ffb900 41.67%, #ffa001 50%, #f18811 58.33%, #e4721c 66.67%, #d86023 75%, #cd5029 83.33%, #c5422f 91.67%, #be3636 100%);
+  color: white;
+  border-radius: 15px;
+}
+
+#modo {
+  width: 0px;
+  height: 0px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  background: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/*nuestros servicios*/
+.datos {
+  display: flex;
+}
+
+#nosotros h1 {
+  margin: 30px;
+  text-align: left;
+  display: grid;
+  font-weight: bold;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+#nosotros p {
+  width: 100%;
+  text-align: center;
+  justify-self: normal;
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+.datos {
+  background-color: rgba(255, 255, 255, 0.562);
+  border-radius: 20px;
+  width: 90%;
+  position: relative;
+  left: 70px;
+  margin-bottom: 30px;
+
+}
+
+.seccion {
+  padding-top: 100px;
+  background-image: url(./slider-ferramenta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 3;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.img2 {
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+
+
+}
+
+.lol img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50px;
+
+}
+
+.lol1 img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  border-radius: 50px;
+}
+
+.txt_img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  text-align: center;
+  padding-top: 140px;
+  padding-left: 10px;
+  border-radius: 50px;
+  font-size: 20px;
+  background: linear-gradient(180deg, #031cfb59 0%, rgba(238, 4, 4, 0.322) 99.99%, rgba(238, 4, 4, 0.59) 100%);
+  color: white;
+}
+
+.texto1 {
+  width: 850px;
+  height: 230px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 80px;
+  float: right;
+  margin-top: 130px;
+  margin-left: 0px;
+  position: absolute;
+  z-index: 2;
+  left: 370px;
+
+}
+
+.texto2 {
+
+  width: 850px;
+  height: 230px;
+  background-color: white;
+  padding: 20px;
+  padding-left: 200px;
+  margin-top: 150px;
+  float: right;
+  margin-top: 85px;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-bottom: 90px;
+}
+
+.texto1 ul li {
+  font-size: 25px;
+
+}
+
+.texto2 ul li {
+  font-size: 25px;
+  text-align: left;
+}
+
+.primero {
+  display: flex;
+  padding-left: 40px;
+  position: relative;
+  height: 400px;
+  z-index: 1;
+}
+
+.social-media{
+  height: 200px;
+  background-image: linear-gradient(270deg, #FFE53B 0%, #FF2525 74%);
+}
+.social-media h1{
+  padding-top: 30px;
+  font-size: 35px;
+  display: block;
+  text-align: center;
+
+}
+.social-media hr{
+  width: 350px;
+  margin-left: 37%;
+margin-bottom: 20px;
+}
+.social-media div{
+  display: flex;
+  padding-left: 45%;
+  
+}
+#face{
+  color: rgb(0, 0, 255);
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+  display: block;
+  transition: 1s;
+}
+#whats{
+  color: rgb(1, 82, 12);
+  width: 40px;
+  height: 40px;
+  display: block;
+  transition: 1s;
+}
+#face:hover{
+  color: rgb(0, 0, 255);
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+#whats:hover{
+  color: rgb(1, 82, 12);
+  width: 60px;
+  height: 60px;
+}
+/*PIE DE PAGINA*/
+.autor {
+  color: rgba(245, 245, 245, 0);
+}
+
+.piedepagina {
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: static;
+  text-align: center;
+  padding-top: 25px;
+  background: linear-gradient(90deg, #1A2A6C 0%, #B21F1F 50%, #FDBB2D 100%);
+}
+
+.piedepagina label:first-of-type {
+  color: white;
+}
