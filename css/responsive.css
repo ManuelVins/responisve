@@ -1,4 +1,4 @@
-@media  screen and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1440px;
     }
@@ -91,7 +91,7 @@
 
 }
 
-@media  screen and (max-width: 1326px) {
+@media screen and (max-width: 1326px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1326px;
     }
@@ -110,11 +110,15 @@
         width: 150px;
         height: 250px;
     }
+    .imagen-servicio img {
+        width: 570px;
+        height: 385px;
+    }
 
 
 }
 
-@media  screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
 
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1300px;
@@ -249,7 +253,7 @@
 
 }
 
-@media  screen and (max-width: 1270px) {
+@media screen and (max-width: 1270px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1270px;
     }
@@ -325,6 +329,30 @@
         height: 200px;
     }
 
+    #productos, .contenedor_cards {
+        width: 100%;
+    }
+
+    .contenedor_cards::before, .contenedor_cards::after {
+        content: '';
+        width: 6%;
+        height: 100%;
+        position: absolute;
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        z-index: 2;
+      }
+      
+      .contenedor_cards::before {
+        top: 0;
+        left: 0;
+      }
+      
+      .contenedor_cards::after {
+        top: 0;
+        right: 0;
+        transform: rotateZ(180deg);
+      }
+      
     .Contacto_Info .social-media {
         padding-left: 30%;
     }
@@ -337,7 +365,7 @@
 
 }
 
-@media  screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1100px;
     }
@@ -416,9 +444,9 @@
         height: 385px;
     }
 
-    #empresas {
+    #empresas, #horario {
         width: 100%;
-        height: 800px;
+        height: fit-content;
     }
 
     .empresas-icon {
@@ -457,7 +485,7 @@
 
 
 
-@media  screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1024px;
     }
@@ -559,6 +587,11 @@
         font-family: 'Roboto Slab', serif;
         font-size: 35px;
         margin-bottom: 10px;
+    }
+
+    .imagen-servicio img {
+        width: 420px;
+        height: 385px;
     }
 
     .puntos-servicios li {
@@ -718,7 +751,7 @@
 
 }
 
-@media  screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1000px;
     }
@@ -740,6 +773,11 @@
         padding-left: 30%;
     }
 
+    .imagen-servicio img {
+        width: 420px;
+        height: 385px;
+    }
+
     #contacto h1 {
         margin: auto;
         text-align: center;
@@ -748,7 +786,7 @@
     }
 }
 
-@media  screen and (max-width:962px) {
+@media screen and (max-width:962px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 962px;
     }
@@ -783,7 +821,7 @@
     }
 
     .imagen-servicio img {
-        width: 440px;
+        width: 400px;
         height: 385px;
     }
 
@@ -869,13 +907,18 @@
         max-width: 909px;
     }
 
-    #empresas {
+    .imagen-servicio img {
+        width: 385px;
+        height: 385px;
+    }
+
+    #empresas, #servicios {
         width: 100%;
-        height: 950px;
+        height: fit-content;
     }
 }
 
-@media  screen and (max-width: 862px) {
+@media screen and (max-width: 862px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 862px;
     }
@@ -973,9 +1016,13 @@
         transition: all 0.3s ease;
         color: white;
     }
+
+    #empresas {
+        height: fit-content;
+    }
 }
 
-@media  screen and (max-width: 822px) {
+@media screen and (max-width: 822px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 822px;
     }
@@ -1077,9 +1124,12 @@
         width: 30%;
     }
 
+    #horario, #empresas {
+        height: fit-content;
+    }
 }
 
-@media  screen and (max-width: 808px) {
+@media screen and (max-width: 808px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 808px;
     }
@@ -1140,7 +1190,7 @@
 
 }
 
-@media  screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
     .container-all {
         transition: all 300ms cubic-bezier(1, 1, 1, 1);
@@ -1349,7 +1399,7 @@
 
 }
 
-@media  screen and (max-width:768px) {
+@media screen and (max-width:768px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 768px;
     }
@@ -1435,7 +1485,7 @@
     }
 
     .imagen-servicio img {
-        width: 350px;
+        width: 320px;
         height: 385px;
     }
 
@@ -1507,7 +1557,7 @@
 
 }
 
-@media  screen and (max-width: 746px) {
+@media screen and (max-width: 746px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 746px;
     }
@@ -1537,6 +1587,11 @@
         margin-left: -829%;
     }
 
+    .imagen-servicio img {
+        width: 300px;
+        height: 385px;
+    }
+
     .maps div {
         text-align: center;
         position: relative;
@@ -1555,41 +1610,18 @@
         height: 220px;
         border-radius: 20px;
     }
-}
 
-@media  screen and (max-width: 746px) {
-    .contenedor-header, .contenedor-main, .contenedor-footer {
-        max-width: 746px;
-    }
 
     header {
         width: 100%;
         height: 55px;
     }
 
-    #radio1:checked~.first {
-        margin-left: 0%;
-    }
 
-    #radio2:checked~.first {
-        margin-left: -219%;
-    }
 
-    #radio3:checked~.first {
-        margin-left: -430%;
-    }
-
-    #radio4:checked~.first {
-        margin-left: -645%;
-    }
-
-    #radio5:checked~.first {
-        margin-left: -859%;
-    }
-
-    #servicios {
+    #servicios, #nosotros, #empresas {
         width: 100%;
-        height: 620px;
+        height: fit-content;
     }
 
     #elejir {
@@ -1597,7 +1629,7 @@
     }
 }
 
-@media  screen and (max-width: 676px) {
+@media screen and (max-width: 676px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 676px;
     }
@@ -1684,7 +1716,7 @@
 
     #nosotros {
         width: 100%;
-        height: 650px;
+        height: fit-content;
         padding: 10px;
     }
 
@@ -1703,9 +1735,13 @@
         margin-right: 30px;
     }
 
+    #servicios {
+        height: fit-content;
+    }
+
     .imagen {
         width: 100%;
-        height: 400px;
+        height: fit-content;
     }
 
     .imagen img {
@@ -1732,6 +1768,10 @@
     .mediaparte2 {
         width: 100%;
         padding: 10px;
+    }
+
+    #empresas {
+        height: fit-content;
     }
 
     .empresas-icon {
@@ -1818,7 +1858,7 @@
     }
 }
 
-@media  screen and (max-width: 660px) {
+@media screen and (max-width: 660px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 660px;
     }
@@ -1903,13 +1943,25 @@
         margin-left: -889%;
     }
 
-    #empresas {
+    #empresas, #servicios, #nosotros, .imagen, #elejir, #horario {
         width: 100%;
-        height: 1000px;
+        height: fit-content;
+    }
+
+    #himg {
+        width: 300px;
+        height: 300px;
+
+        margin-right: 60px;
+    }
+
+    #H_A {
+        width: 200px;
+        margin-left: 0px;
     }
 }
 
-@media  screen and (max-width: 626px) {
+@media screen and (max-width: 626px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 626px;
     }
@@ -1994,14 +2046,18 @@
         margin-left: -919%;
     }
 
+    #servicios, #nosotros, .imagen {
+        height: fit-content;
+    }
+
     #empresas {
         width: 100%;
-        height: 1100px;
+        height: fit-content;
     }
 
     #elejir {
         width: 100%;
-        height: 600px;
+        height: fit-content;
     }
 
     .card_comentarios {
@@ -2050,7 +2106,7 @@
     }
 }
 
-@media  screen and (max-width:600px) {
+@media screen and (max-width:600px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 600px;
     }
@@ -2060,9 +2116,21 @@
         height: 55px;
     }
 
+    #nosotros {
+        height: fit-content;
+    }
+
+    .imagen {
+        height: fit-content;
+    }
+
+    #servicios {
+        height: fit-content;
+    }
+
     #empresas {
         width: 100%;
-        height: 1200px;
+        height: fit-content;
     }
 
     #radio1:checked~.first {
@@ -2084,9 +2152,39 @@
     #radio5:checked~.first {
         margin-left: -934%;
     }
+
+    #elejir {
+        height: fit-content;
+    }
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 390px;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 20px;
+        border-left: 220px solid transparent;
+        border-bottom: 20px solid rgba(255, 255, 255, 0);
+        bottom: 0;
+    }
+
 }
 
-@media  screen and (max-width:576px) {
+@media screen and (max-width:576px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 576px;
     }
@@ -2112,6 +2210,46 @@
         margin-left: -959%;
     }
 
+    #servicios {
+        height: fit-content;
+    }
+
+    #nosotros {
+        height: fit-content;
+    }
+
+    .imagen {
+        height: fit-content;
+    }
+
+    .imagen img {
+        margin: auto;
+    }
+
+    #empresas {
+        height: fit-content;
+    }
+
+    #elejir {
+        height: fit-content;
+    }
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 390px;
+    }
+
     .img_com {
         width: 100%;
         height: 40%;
@@ -2135,6 +2273,10 @@
         margin-top: 80px;
         margin-left: 80px;
         margin-bottom: 20px;
+    }
+
+    #contacto {
+        height: fit-content;
     }
 
     #contacto img {
@@ -2190,13 +2332,34 @@
         margin-left: -999%;
     }
 
+    #nosotros {
+        height: fit-content;
+    }
+
+    #servicios {
+        height: fit-content;
+    }
+
+    .imagen {
+        height: fit-content;
+    }
+
+    .imagen img {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
     #empresas {
         width: 100%;
-        height: 990px;
+        height: fit-content;
+    }
+
+    #elejir {
+        height: fit-content;
     }
 
     #comentarios {
-        height: 1200px;
+        height: fit-content;
     }
 
     #comentarios img {
@@ -2206,7 +2369,12 @@
         margin-right: 60px;
     }
 
+    .titulo_text {
+        height: fit-content;
+    }
+
     .comentarios_cards {
+        height: fit-content;
         margin-top: 10px;
     }
 
@@ -2221,11 +2389,15 @@
 
     .card_comentarios {
         width: 45%;
-        height: 390px;
+        height: 400px;
+    }
+
+    #contacto {
+        height: fit-content;
     }
 }
 
-@media  screen and (max-width:530px) {
+@media screen and (max-width:530px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 530px;
     }
@@ -2256,12 +2428,60 @@
         height: 650px;
     }
 
+    #servicios {
+        height: fit-content;
+    }
+
+    #empresas {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #elejir {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .titulo_text p {
+        text-align: justify;
+    }
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        width: 100%;
+        padding: 30px 10px 10px 10px;
+        height: fit-content;
+    }
+
+    .titulo_text h1 {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .titulo_text p {
+        width: 90%;
+        margin: 25px;
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
     #himg {
         width: 250px;
         height: 280px;
         margin-top: 80px;
         margin-left: 80px;
         margin-bottom: 20px;
+    }
+
+    #contacto {
+        height: fit-content;
     }
 
     #contacto img {
@@ -2271,11 +2491,21 @@
         right: 5%;
     }
 
+    .maps {
+        height: 100%;
+    }
+
+    .Contacto_Info {}
+
+    .Contacto_Info section {
+        margin-left: 0px;
+    }
+
     .maps div {
         text-align: center;
         position: relative;
         width: 240px;
-        height: 320px;
+        height: fit-content;
         border: #000000 solid 1px;
         align-items: center;
         padding: 20px 20px 20px 20px;
@@ -2307,9 +2537,10 @@
         width: 50%;
         height: 370px;
     }
+
 }
 
-@media  screen and (max-width:525px) {
+@media screen and (max-width:525px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 525px;
     }
@@ -2347,12 +2578,60 @@
         display: block;
     }
 
+    #servicios {
+        height: fit-content;
+    }
+
+    #empresas {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #elejir {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .titulo_text p {
+        text-align: justify;
+    }
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        width: 100%;
+        padding: 30px 10px 10px 10px;
+        height: fit-content;
+    }
+
+    .titulo_text h1 {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .titulo_text p {
+        width: 90%;
+        margin: 25px;
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 400px;
+    }
+
     .piedepagina {
         height: 80px;
     }
 }
 
-@media  screen and (max-width:509px) {
+@media screen and (max-width:509px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 509px;
     }
@@ -2437,22 +2716,56 @@
         margin-left: -1045%;
     }
 
+    #servicios {
+        height: fit-content;
+    }
+
     #empresas {
         width: 100%;
-        height: 1280px;
+        height: fit-content;
     }
 
     #elejir {
         width: 100%;
-        height: 690px;
+        height: fit-content;
     }
 
     .titulo_text p {
         text-align: justify;
     }
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        width: 100%;
+        padding: 30px 10px 10px 10px;
+        height: fit-content;
+    }
+
+    .titulo_text h1 {
+        width: 100%;
+        margin: auto;
+        height: fit-content;
+    }
+
+    .titulo_text p {
+        width: 90%;
+        margin: 25px;
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 400px;
+    }
 }
 
-@media  screen and (max-width:500px) {
+@media screen and (max-width:500px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 500px;
     }
@@ -2482,14 +2795,27 @@
         margin-left: -1045%;
     }
 
+    #nosotros {
+        height: fit-content;
+    }
+
+    #servicios {
+        height: fit-content;
+    }
+
     #empresas {
         width: 100%;
-        height: 1280px;
+        height: fit-content;
+    }
+
+    .imagen {
+        height: fit-content;
+        margin-bottom: 20px;
     }
 
     #elejir {
         width: 100%;
-        height: 780px;
+        height: fit-content;
     }
 
     #contacto {
@@ -2497,6 +2823,21 @@
         height: 950px;
     }
 
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 400px;
+    }
 
     .contact-font {
         width: 100%;
@@ -2571,7 +2912,7 @@
 }
 
 
-@media  screen and (max-width:480px) {
+@media screen and (max-width:480px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 480px;
     }
@@ -2698,7 +3039,8 @@
     }
 }
 
-@media  screen and (max-width:470px) {
+
+@media screen and (max-width:470px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 470px;
     }
@@ -2824,18 +3166,20 @@
         right: 5%;
     }
 }
-@media  screen and (max-width: 465px){
+
+@media screen and (max-width: 465px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 465px;
     }
-    
+
     #nosotros {
         width: 100%;
         height: 720px;
     }
-    
+
 }
-@media  screen and (max-width:451px) {
+
+@media screen and (max-width:451px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 450px;
     }
@@ -3028,7 +3372,7 @@
     }
 }
 
-@media  screen and (max-width:414px) {
+@media screen and (max-width:414px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 414px;
     }
@@ -3054,7 +3398,7 @@
     }
 }
 
-@media  screen and (max-width:411px) {
+@media screen and (max-width:411px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 470px;
     }
@@ -3086,11 +3430,42 @@
 
     #empresas {
         width: 100%;
-        height: 1310px;
+        height: fit-content;
     }
+
+    #elejir {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .contenedor {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    #comentarios {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .titulo_text {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 300px;
+    }
+
+    .comentarios_cards {
+        width: 100%;
+        height: fit-content;
+    }
+
 }
 
-@media  screen and (max-width:393px) {
+@media screen and (max-width:393px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 393px;
     }
@@ -3139,7 +3514,7 @@
     }
 }
 
-@media  screen and (max-width:384px) {
+@media screen and (max-width:384px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 384px;
     }
@@ -3188,7 +3563,7 @@
     }
 }
 
-@media  screen and (max-width:375px) {
+@media screen and (max-width:375px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 375px;
     }
@@ -3308,7 +3683,7 @@
 
     #elejir {
         width: 100%;
-        height: 1050px;
+        height: fit-content;
     }
 
     .comentarios_cards {
@@ -3355,7 +3730,7 @@
     }
 }
 
-@media  screen and (max-width:353px) {
+@media screen and (max-width:353px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 353px;
     }
@@ -3427,7 +3802,7 @@
     }
 }
 
-@media  screen and (max-width:360px) {
+@media screen and (max-width:360px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 360px;
     }
@@ -3472,12 +3847,13 @@
 
     #nosotros {
         width: 100%;
-        height: 780px;
+        height: fit-content;
         padding-top: 0%;
     }
 
     .datos {
-        width: 100%;
+        width: 90%;
+        margin: auto;
     }
 
     .datos p {
@@ -3485,15 +3861,87 @@
         margin: auto;
     }
 
+    .imagen {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #empresas {
+        width: 100%;
+        height: fit-content;
+    }
+
     #elejir {
-        height: 1220px;
+        height: fit-content;
+    }
+
+    #comentarios {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .titulo_text {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .card_comentarios {
+        height: 300px;
+    }
+
+    .comentarios_cards {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
     }
 }
 
-@media  screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 320px;
     }
+
+
 
     #logo {
         margin-top: 10px;
@@ -3591,10 +4039,16 @@
 
     #nosotros {
         width: 100%;
-        height: 820px;
+        height: fit-content;
         padding: 0px;
 
     }
+
+    .imagen {
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+
 
     .datos {
         width: 100%;
@@ -3608,7 +4062,7 @@
 
     #servicios {
         width: 100%;
-        height: 720px;
+        height: fit-content;
     }
 
     .mediaparte2 {
@@ -3637,7 +4091,7 @@
 
     #empresas {
         width: 100%;
-        height: 850px;
+        height: fit-content;
     }
 
     .empresas-icon {
@@ -3665,7 +4119,7 @@
 
     #elejir {
         width: 100%;
-        height: 1210px;
+        height: fit-content;
     }
 
     .contenedor {
@@ -3673,17 +4127,38 @@
     }
 
     #comentarios {
-        height: 1310px;
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: 100%;
     }
 
     .card_comentarios {
         width: auto;
-        height: 280px;
+        height: 350px;
+    }
+
+    #horario {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #H_A {
+        width: 80%;
+        height: 450px;
+        margin-bottom: 10px;
     }
 
     #contacto {
         width: 100%;
-        height: 1000px;
+        height: fit-content;
     }
 
     #contacto img {
@@ -3699,6 +4174,8 @@
     }
 
     .Contacto_Info {
+        width: 100%;
+        height: fit-content;
         margin-bottom: 40px;
     }
 
@@ -3707,9 +4184,22 @@
         padding-left: 20%;
     }
 
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
 }
 
-@media  screen and (max-width: 280px) {
+@media screen and (max-width: 280px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 280px;
     }
@@ -3818,13 +4308,18 @@
 
     #nosotros {
         width: 100%;
-        height: 850px;
+        height: fit-content;
         padding: 0px;
 
     }
 
     .datos {
         width: 100%;
+    }
+
+    .imagen {
+        width: 205px;
+        height: 225px;
     }
 
     .imagen img {
@@ -3835,7 +4330,7 @@
 
     #servicios {
         width: 100%;
-        height: 750px;
+        height: fit-content;
     }
 
     .puntos-servicios li {
@@ -3844,22 +4339,23 @@
 
     #empresas {
         width: 100%;
-        height: 980px;
+        height: fit-content;
     }
 
     #elejir {
         width: 100%;
-        height: 1350px;
+        height: fit-content;
     }
 
     .contenedor {
         width: 100%;
+        margin-bottom: 90px;
         height: 300px;
     }
 
     #comentarios {
         width: 100%;
-        height: 1400px;
+        height: fit-content;
     }
 
     .mediaparte2 {
@@ -3871,13 +4367,9 @@
         margin: 0%;
     }
 
-    .card_comentarios {
-        width: auto;
-        height: 280px;
-    }
-
     .titulo_text {
         width: 100%;
+        height: fit-content;
         padding: 0px;
     }
 
@@ -3894,6 +4386,7 @@
 
     .comentarios_cards {
         width: 100%;
+        height: fit-content;
         margin: auto;
         margin-top: 0%;
         padding: 0%;
@@ -3901,12 +4394,12 @@
 
     .card_comentarios {
         width: auto;
-        height: 300px;
+        height: fit-content;
     }
 
     #horario {
         width: 100%;
-        height: 900px;
+        height: fit-content;
     }
 
     #H_A {
@@ -3932,13 +4425,13 @@
 
     #contacto {
         width: 100%;
-        height: 900px;
+        height: fit-content;
         padding: 0%;
     }
 
     .contacto-head {
         width: 100%;
-        padding: 0%;
+        margin-bottom: 10px;
     }
 
     #contacto h1 {
@@ -3950,11 +4443,16 @@
     }
 
     .contact-font {
-        height: 800px;
+        height: fit-content;
     }
 
     .maps {
-        height: 99px;
+        height: fit-content;
+    }
+
+    .piedepagina {
+        width: 100%;
+        height: fit-content;
     }
 
 }
