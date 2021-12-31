@@ -90,18 +90,22 @@
     #radio5:checked~.first {
         margin-left: -624%;
     }
-    .contenedor{
+
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #comentarios{
-height: fit-content;
-    } 
-    #comentarios img{
+
+    #comentarios {
+        height: fit-content;
+    }
+
+    #comentarios img {
         height: 42%;
     }
 }
@@ -131,15 +135,17 @@ height: fit-content;
         height: 385px;
     }
 
-    .contenedor{
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #comentarios img{
+
+    #comentarios img {
         height: 45%;
     }
 }
@@ -272,18 +278,21 @@ height: fit-content;
         height: 200px;
     }
 
-    #comentarios img{
+    #comentarios img {
         height: 48%;
     }
+
     .Contacto_Info .social-media {
         padding-left: 30%;
     }
-    .contenedor{
+
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
 }
@@ -396,22 +405,27 @@ height: fit-content;
         margin: auto;
         text-align: center;
     }
-    .contenedor{
+
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #comentarios{
+
+    #comentarios {
         height: fit-content;
-        
+
     }
-    #comentarios img{
+
+    #comentarios img {
         height: 57%;
     }
-    .card_comentarios{
+
+    .card_comentarios {
         height: 500px;
     }
 
@@ -471,12 +485,14 @@ height: fit-content;
         border-bottom: 22px solid rgb(59, 58, 58);
         bottom: 0;
     }
-    .contenedor{
+
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
 
@@ -1743,7 +1759,13 @@ height: fit-content;
         height: 55px;
     }
 
-
+#comentarios, .titulo_text, .comentarios_cards{
+    height: fit-content;
+}
+.text_com{
+    height: fit-content;
+    padding-bottom: 20px;
+}
 
     #servicios, #nosotros, #empresas {
         width: 100%;
@@ -1926,9 +1948,11 @@ height: fit-content;
         width: 100%;
         height: 90%;
     }
-#elejir{
-    height: fit-content;
-}
+
+    #elejir {
+        height: fit-content;
+    }
+
     .texto {
         align-items: left;
         text-align: justify;
@@ -1944,15 +1968,22 @@ height: fit-content;
     .comentarios_cards {
         margin-top: 0;
         padding-top: 0;
+        height: fit-content;
     }
 
     .card_comentarios {
         width: 40%;
-        height: 370px;
+        height: fit-content;
     }
-
+.img_com{
+    height: 200px;
+}
+.text_com{
+    height: fit-content;
+    padding-bottom: 20px;
+}
     #comentarios {
-        height: 1080px;
+        height: fit-content;
     }
 
     #contacto img {
@@ -2087,20 +2118,79 @@ height: fit-content;
         width: 200px;
         margin-left: 0px;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: 40%;
+        height: fit-content;
+        
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
 }
+
 @media screen and (max-width: 640px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 640px;
     }
-    .card_comentarios{
-        height: 400px;
-    }
-    #comentarios{
-        height: fit-content;   
-    }
-    .contenedor_cards{
+
+    #comentarios {
         height: fit-content;
     }
+
+    .titulo_text {
+        height: fit-content;
+        width: 100%;
+        margin: auto;
+    }
+    
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+        
+    }
+
+    .card_comentarios {
+        width: 45%;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
 }
 
 @media screen and (max-width: 626px) {
@@ -2204,8 +2294,37 @@ height: fit-content;
 
     .card_comentarios {
         width: 45%;
-        height: 370px;
+        height: fit-content;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+   
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+
 
     #horario img {
         margin-left: 20px;
@@ -2312,16 +2431,20 @@ height: fit-content;
     }
 
     .card_comentarios {
-        height: 390px;
+        height:fit-content;
     }
 
     .img_com {
         width: 100%;
-        height: 40%;
+        height: 200px;
         border-top-left-radius: 20px;
         border-left: 220px solid transparent;
-        border-bottom: 20px solid rgba(255, 255, 255, 0);
+        border-bottom: 20px solid rgb(255, 255, 255);
         bottom: 0;
+    }
+    .text_com{
+        height: fit-content;
+        margin-bottom: 10px;
     }
 
 }
@@ -2389,12 +2512,12 @@ height: fit-content;
     }
 
     .card_comentarios {
-        height: 390px;
+        height: fit-content;
     }
 
     .img_com {
         width: 100%;
-        height: 40%;
+        height: 200px;
         border-top-left-radius: 20px;
         border-left: 220px solid transparent;
         border-bottom: 20px solid rgb(255, 255, 255);
@@ -2404,7 +2527,7 @@ height: fit-content;
     .text_com {
         padding: 20px;
         width: 100%;
-        height: 60%;
+        height: fit-content;
         border-radius: 0px 0px 20px 20px;
         background-color: rgb(255, 255, 255);
     }
@@ -2522,7 +2645,7 @@ height: fit-content;
 
     .img_com {
         width: 100%;
-        height: 40%;
+        height: 200px;
         border-top-left-radius: 20px;
         border-left: 200px solid transparent;
         border-bottom: 20px solid rgb(255, 255, 255);
@@ -2531,8 +2654,9 @@ height: fit-content;
 
     .card_comentarios {
         width: 45%;
-        height: 400px;
+        height: fit-content;
     }
+
 
     #contacto {
         height: fit-content;
@@ -2590,6 +2714,7 @@ height: fit-content;
 
     #comentarios {
         height: fit-content;
+        padding-bottom: 20px;
     }
 
     .titulo_text {
@@ -2609,7 +2734,9 @@ height: fit-content;
         margin: 25px;
         height: fit-content;
     }
-
+.card_comentarios{
+    height: fit-content;
+}
     .comentarios_cards {
         height: fit-content;
     }
@@ -2765,12 +2892,22 @@ height: fit-content;
     }
 
     .card_comentarios {
-        height: 400px;
+        height: fit-content;
     }
+
 
     .piedepagina {
         height: 80px;
     }
+    
+    
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    
+
 }
 
 @media screen and (max-width:509px) {
@@ -2899,13 +3036,36 @@ height: fit-content;
         height: fit-content;
     }
 
-    .comentarios_cards {
+    #comentarios {
         height: fit-content;
     }
 
-    .card_comentarios {
-        height: 400px;
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
     }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: 50%;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 }
 
 @media screen and (max-width:500px) {
@@ -2965,35 +3125,51 @@ height: fit-content;
 
     #contacto {
         width: 100%;
-        height: 950px;
+        height: fit-content;
     }
 
+    
     #comentarios {
         height: fit-content;
     }
 
     .titulo_text {
         height: fit-content;
+        width: 90%;
+        margin: auto;
     }
 
     .comentarios_cards {
         height: fit-content;
+        margin-bottom: 20px;
     }
 
     .card_comentarios {
-        height: 400px;
+        width: 70%;
+        height: fit-content;
     }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 
     .contact-font {
         width: 100%;
-        height: 100%;
+        height: fit-content;
         flex-direction: column;
     }
 
     .Contacto_Info {
         width: 100%;
-        height: 50%;
-        padding: 20px 20px 0px 20px;
+        height: fit-content;
+        padding: 20px 20px 50px 20px;
         margin-bottom: 0px;
     }
 
@@ -3021,18 +3197,18 @@ height: fit-content;
 
     .maps {
         width: 100%;
-        height: 50%;
+        height: fit-content;
         border-top: #000000 solid 1px;
         border-left: #000000 solid 0px;
         padding: 10px 20px 20px 20px;
-        margin-top: 0%;
+        margin-top: 20px;
     }
 
     .maps div {
         text-align: center;
         position: relative;
         width: 100%;
-        height: 300px;
+        height: 100%;
         border: #000000 solid 1px;
         align-items: center;
         padding: 20px 20px 20px 20px;
@@ -3199,6 +3375,40 @@ height: fit-content;
         height: 180px;
         right: 5%;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 110px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+    .contact-font, .social-media{
+        height: fit-content;
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -3328,6 +3538,40 @@ height: fit-content;
         height: 180px;
         right: 5%;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 100px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+.contact-font, .social-media{
+    height: fit-content;
+    padding-bottom: 40px;
+}
 }
 
 @media screen and (max-width: 465px) {
@@ -3340,6 +3584,37 @@ height: fit-content;
         height: fit-content;
         padding-bottom: 50px;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 100px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 
 }
 
@@ -3378,9 +3653,40 @@ height: fit-content;
         height: fit-content;
     }
 
-    #elejir, .texto, .contenedor{
+    #elejir, .texto, .contenedor {
         height: fit-content;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 100px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 }
 
 @media screen and (max-width:425px) {
@@ -3540,22 +3846,57 @@ height: fit-content;
     .titulo_text h1, #H_A h1, .contacto-head h1 {
         font-size: 30px;
     }
-    #elejir{
+
+    #elejir {
         height: fit-content;
     }
-    .contenedor{
+
+    .contenedor {
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #pqelejir{
+
+    #pqelejir {
         height: fit-content;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 100px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 }
 
 @media screen and (max-width:414px) {
-    
+
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 414px;
     }
@@ -3579,23 +3920,59 @@ height: fit-content;
     #radio5:checked~.first {
         margin-left: -1184%;
     }
-    #nosotros, #servicios{
+
+    #nosotros, #servicios {
         padding-bottom: 50px;
         width: 100%;
         height: fit-content;
     }
-    #elejir{
+
+    #elejir {
         height: fit-content;
     }
-    .contenedor{
+
+    .contenedor {
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #pqelejir{
+
+    #pqelejir {
         height: fit-content;
     }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 }
 
 @media screen and (max-width:411px) {
@@ -3628,7 +4005,7 @@ height: fit-content;
         margin-left: -1184%;
     }
 
-    #empresas, #nosotros{
+    #empresas, #nosotros {
         width: 100%;
         height: fit-content;
         padding-bottom: 50px;
@@ -3645,25 +4022,42 @@ height: fit-content;
         margin-bottom: 20px;
     }
 
+  
     #comentarios {
-        width: 100%;
         height: fit-content;
+        width: 100%;
     }
 
     .titulo_text {
-        width: 100%;
         height: fit-content;
-    }
-
-    .card_comentarios {
-        height: 300px;
+        width: 90%;
+        margin: auto;
     }
 
     .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
         width: 100%;
         height: fit-content;
     }
 
+.Contacto_Info, .social-media{
+    height: fit-content;
+    padding-bottom: 30px;
+}
 }
 
 
@@ -3707,19 +4101,92 @@ height: fit-content;
         height: fit-content;
         margin-bottom: 30px;
     }
-    
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #pqelejir{
+
+    #pqelejir {
         height: fit-content;
     }
+
     #elejir {
         height: fit-content;
     }
 
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
     .card_comentarios {
-        height: 245px;
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+        padding-bottom: 20%;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
     }
 }
 
@@ -3747,10 +4214,12 @@ height: fit-content;
     #radio5:checked~.first {
         margin-left: -1255%;
     }
-#nosotros{
-    height: fit-content;
-    padding-bottom: 50px;
-}
+
+    #nosotros {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
     #servicios {
         width: 100%;
         padding-bottom: 50px;
@@ -3762,18 +4231,91 @@ height: fit-content;
         height: fit-content;
     }
 
-    .contenedor{
-        height: fit-content;
-    }
-    .texto{
-        height: fit-content;
-    }
-    #pqelejir{
+    .contenedor {
         height: fit-content;
     }
 
+    .texto {
+        height: fit-content;
+    }
+
+    #pqelejir {
+        height: fit-content;
+    }
+
+   
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
     .card_comentarios {
-        height: 245px;
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+        padding-bottom: 20%;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
     }
 }
 
@@ -3862,7 +4404,7 @@ height: fit-content;
         margin-left: -1255%;
     }
 
-    #servicios, #nosotros{
+    #servicios, #nosotros {
         height: fit-content;
         padding-bottom: 50px;
     }
@@ -3893,7 +4435,7 @@ height: fit-content;
     }
 
     .contenedor {
-        margin-bottom: 30px; 
+        margin-bottom: 30px;
         height: fit-content;
     }
 
@@ -3901,25 +4443,46 @@ height: fit-content;
         width: 100%;
         height: fit-content;
     }
-    
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #pqelejir{
+
+    #pqelejir {
         height: fit-content;
     }
+
+   
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
     .comentarios_cards {
-        margin-top: 0px;
+        height: fit-content;
+        margin-bottom: 20px;
     }
 
     .card_comentarios {
         width: auto;
-        height: 260px;
-    }
-
-    #comentarios {
         height: fit-content;
     }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
 
     #contacto img {
         bottom: -1275%;
@@ -3936,6 +4499,50 @@ height: fit-content;
         padding: 10px;
         margin-top: 0%;
     }
+
+
+
+
+
+
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+        padding-bottom: 20px;
+    }
+
+   
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+
 
     #logo {
         margin-top: 10px;
@@ -4022,34 +4629,50 @@ height: fit-content;
         height: fit-content;
     }
 
-    .contenedor{
-        height: fit-content;
-    }
-    .texto{
-        height: fit-content;
-    }
-    #pqelejir{
+    .contenedor {
         height: fit-content;
     }
 
-    #comentarios {
-        width: 100%;
+    .texto {
         height: fit-content;
+    }
+
+    #pqelejir {
+        height: fit-content;
+    }
+
+   
+    #comentarios {
+        height: fit-content;
+        width: 100%;
     }
 
     .titulo_text {
-        width: 100%;
         height: fit-content;
-    }
-
-    .card_comentarios {
-        height: 300px;
+        width: 90%;
+        margin: auto;
     }
 
     .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
         width: 100%;
         height: fit-content;
     }
+
 
     #contacto {
         width: 100%;
@@ -4077,6 +4700,7 @@ height: fit-content;
     .Contacto_Info .social-media {
         place-items: center;
         padding-left: 20%;
+        padding-bottom: 20%;
     }
 
     .maps {
@@ -4146,10 +4770,12 @@ height: fit-content;
         height: fit-content;
         padding-bottom: 50px;
     }
-#servicios{
-    height: fit-content;
-    padding-bottom: 50px;
-}
+
+    #servicios {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
+
     #empresas {
         height: fit-content;
     }
@@ -4162,18 +4788,96 @@ height: fit-content;
         width: 100%;
         margin: auto;
     }
-#elejir{
-    height: fit-content;
-}
-    .contenedor{
+
+    #elejir {
         height: fit-content;
     }
-    .texto{
+
+    .contenedor {
         height: fit-content;
     }
-    #pqelejir{
+
+    .texto {
         height: fit-content;
     }
+
+    #pqelejir {
+        height: fit-content;
+    }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+    
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+        margin-bottom: 20px;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -4363,13 +5067,15 @@ height: fit-content;
         height: fit-content;
     }
 
-    .contenedor{
+    .contenedor {
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
     }
-    #pqelejir{
+
+    #pqelejir {
         height: fit-content;
     }
 
@@ -4384,12 +5090,23 @@ height: fit-content;
     }
 
     .comentarios_cards {
-        height: 100%;
+        height: fit-content;
+        margin-bottom: 20px;
     }
 
     .card_comentarios {
         width: auto;
-        height: 350px;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
     }
 
     #horario {
@@ -4418,6 +5135,7 @@ height: fit-content;
         width: 100%;
         height: 100%;
         flex-direction: column;
+        padding-bottom: 10px;
     }
 
     .Contacto_Info {
@@ -4429,6 +5147,7 @@ height: fit-content;
     .Contacto_Info .social-media {
         place-items: center;
         padding-left: 20%;
+        margin-bottom: 20px;
     }
 
     .maps {
@@ -4595,16 +5314,46 @@ height: fit-content;
         height: fit-content;
     }
 
-        .contenedor{
-            height: fit-content;
-        }
-        .texto{
-            height: fit-content;
-        }
-        #pqelejir{
-            height: fit-content;
-        }
+    .contenedor {
+        height: fit-content;
+    }
+
+    .texto {
+        height: fit-content;
+    }
+
+    #pqelejir {
+        height: fit-content;
+    }
+
     #comentarios {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: auto;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
         width: 100%;
         height: fit-content;
     }
@@ -4695,6 +5444,7 @@ height: fit-content;
 
     .contact-font {
         height: fit-content;
+        padding-bottom: 20px;
     }
 
     .maps {
@@ -4742,12 +5492,87 @@ height: fit-content;
         transition: all 0.3s ease;
         color: white;
     }
-    .contenedor{
+
+    .contenedor {
         position: static;
         margin: 30px 0px 20px 0px;
         height: fit-content;
     }
-    .texto{
+
+    .texto {
         height: fit-content;
+    }
+    
+    #comentarios {
+        height: fit-content;
+    }
+
+    .titulo_text {
+        height: fit-content;
+        width: 90%;
+        margin: auto;
+    }
+
+    .comentarios_cards {
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+
+    .card_comentarios {
+        width: 80%;
+        height: fit-content;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 200px;
+    }
+
+    .text_com {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto {
+        width: 100%;
+        height: fit-content;
+    }
+
+    #contacto img {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+
+    .contact-font {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    .Contacto_Info {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
+    }
+
+    .Contacto_Info .social-media {
+        place-items: center;
+        padding-left: 20%;
+        margin-bottom: 20px;
+    }
+
+    .maps {
+        width: 100%;
+        height: fit-content;
+        padding-top: 50px;
+
+    }
+
+    .maps div {
+        width: 100%;
+        height: fit-content;
+        margin-bottom: 40px;
     }
 }
