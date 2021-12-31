@@ -2719,7 +2719,8 @@ height: fit-content;
         display: block;
     }
 
-    #servicios {
+    #servicios, #nosotros {
+        padding-bottom: 50px;
         height: fit-content;
     }
 
@@ -2857,8 +2858,9 @@ height: fit-content;
         margin-left: -1045%;
     }
 
-    #servicios {
+    #nosotros, #servicios {
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     #empresas {
@@ -2937,10 +2939,12 @@ height: fit-content;
     }
 
     #nosotros {
+        padding-bottom: 50px;
         height: fit-content;
     }
 
     #servicios {
+        padding-bottom: 50px;
         height: fit-content;
     }
 
@@ -3083,9 +3087,10 @@ height: fit-content;
         margin-left: -1069%;
     }
 
-    #elejir {
+    #nosotros, #servicios, #elejir {
         width: 100%;
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     #elejir h1 {
@@ -3227,8 +3232,9 @@ height: fit-content;
         margin-left: -1085%;
     }
 
-    #elejir {
+    #elejir, #servicios, #nosotros {
         width: 100%;
+        padding-bottom: 50px;
         height: fit-content;
     }
 
@@ -3329,9 +3335,10 @@ height: fit-content;
         max-width: 465px;
     }
 
-    #nosotros {
+    #nosotros, #servicios {
         width: 100%;
-        height: 720px;
+        height: fit-content;
+        padding-bottom: 50px;
     }
 
 }
@@ -3341,9 +3348,10 @@ height: fit-content;
         max-width: 450px;
     }
 
-    #nosotros {
+    #nosotros, #servicios {
         width: 100%;
-        height: 720px;
+        height: fit-content;
+        padding-bottom: 50px;
     }
 
     #radio1:checked~.first {
@@ -3367,7 +3375,7 @@ height: fit-content;
     }
 
     #empresas {
-        height: 1350px;
+        height: fit-content;
     }
 
     #elejir, .texto, .contenedor{
@@ -3476,8 +3484,8 @@ height: fit-content;
 
     #nosotros {
         width: 100%;
-        height: 720px;
-        padding: 10px;
+        height: fit-content;
+        padding-bottom: 50px;
     }
 
     .datos {
@@ -3495,7 +3503,8 @@ height: fit-content;
     }
 
     #servicios {
-        height: 600px;
+        height: fit-content;
+        padding-bottom: 50px;
     }
 
     .mediaparte2 {
@@ -3546,6 +3555,7 @@ height: fit-content;
 }
 
 @media screen and (max-width:414px) {
+    
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 414px;
     }
@@ -3568,6 +3578,11 @@ height: fit-content;
 
     #radio5:checked~.first {
         margin-left: -1184%;
+    }
+    #nosotros, #servicios{
+        padding-bottom: 50px;
+        width: 100%;
+        height: fit-content;
     }
     #elejir{
         height: fit-content;
@@ -3613,9 +3628,10 @@ height: fit-content;
         margin-left: -1184%;
     }
 
-    #empresas {
+    #empresas, #nosotros{
         width: 100%;
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     #elejir {
@@ -3676,9 +3692,10 @@ height: fit-content;
         margin-left: -1215%;
     }
 
-    #servicios {
+    #servicios, #nosotros {
         width: 100%;
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     #empresas {
@@ -3732,9 +3749,11 @@ height: fit-content;
     }
 #nosotros{
     height: fit-content;
+    padding-bottom: 50px;
 }
     #servicios {
         width: 100%;
+        padding-bottom: 50px;
         height: fit-content;
     }
 
@@ -3843,8 +3862,9 @@ height: fit-content;
         margin-left: -1255%;
     }
 
-    #servicios {
+    #servicios, #nosotros{
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     #empresas {
@@ -3976,10 +3996,10 @@ height: fit-content;
         margin-left: -1295%;
     }
 
-    #nosotros {
+    #nosotros, #servicios {
         width: 100%;
         height: fit-content;
-        padding-top: 0%;
+        padding-bottom: 50px;
     }
 
     .datos {
@@ -4124,10 +4144,11 @@ height: fit-content;
     #nosotros {
         width: 100%;
         height: fit-content;
-        padding-top: 0%;
+        padding-bottom: 50px;
     }
 #servicios{
     height: fit-content;
+    padding-bottom: 50px;
 }
     #empresas {
         height: fit-content;
@@ -4259,7 +4280,7 @@ height: fit-content;
     #nosotros {
         width: 100%;
         height: fit-content;
-        padding: 0px;
+        padding-bottom: 50px;
 
     }
 
@@ -4281,6 +4302,7 @@ height: fit-content;
 
     #servicios {
         width: 100%;
+        padding-bottom: 50px;
         height: fit-content;
     }
 
@@ -4534,7 +4556,7 @@ height: fit-content;
     #nosotros {
         width: 100%;
         height: fit-content;
-        padding: 0px;
+        padding-bottom: 50px;
 
     }
 
@@ -4554,6 +4576,7 @@ height: fit-content;
     }
 
     #servicios {
+        padding-bottom: 50px;
         width: 100%;
         height: fit-content;
     }
@@ -4693,6 +4716,7 @@ height: fit-content;
     #nosotros, #servicios, #empresas, #elejir {
         width: 100%;
         height: fit-content;
+        padding-bottom: 50px;
     }
 
     .imagen img {
