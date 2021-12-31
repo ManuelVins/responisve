@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @media screen and (max-width: 1440px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1440px;
@@ -89,7 +90,20 @@
     #radio5:checked~.first {
         margin-left: -624%;
     }
-
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #comentarios{
+height: fit-content;
+    } 
+    #comentarios img{
+        height: 42%;
+    }
 }
 
 @media screen and (max-width: 1326px) {
@@ -117,7 +131,17 @@
         height: 385px;
     }
 
-
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #comentarios img{
+        height: 45%;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -248,11 +272,20 @@
         height: 200px;
     }
 
-
+    #comentarios img{
+        height: 48%;
+    }
     .Contacto_Info .social-media {
         padding-left: 30%;
     }
-
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width: 1270px) {
@@ -363,7 +396,24 @@
         margin: auto;
         text-align: center;
     }
-
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #comentarios{
+        height: fit-content;
+        
+    }
+    #comentarios img{
+        height: 57%;
+    }
+    .card_comentarios{
+        height: 500px;
+    }
 
 }
 
@@ -384,7 +434,7 @@
     }
 
     #comentarios img {
-        height: 115%;
+        height: 60%;
     }
 
     .card_comentarios {
@@ -421,7 +471,14 @@
         border-bottom: 22px solid rgb(59, 58, 58);
         bottom: 0;
     }
-
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
 
 }
 
@@ -523,12 +580,12 @@
         padding-left: 50px;
     }
 
-    #comentarios {
+    #comentarios, .titulo_text {
         height: fit-content;
     }
 
     #comentarios img {
-        height: 118%;
+        height: 70%;
     }
 
     #contacto img {
@@ -723,7 +780,7 @@
 
     #comentarios img {
         position: absolute;
-        height: 120%;
+        height: fit-content;
         width: 100%;
         margin-right: 60px;
     }
@@ -1289,7 +1346,7 @@
 
     header {
         width: 100%;
-        height: 10%;
+        height: 60px;
         background-size: cover;
         display: flex;
         position: fixed;
@@ -1869,7 +1926,9 @@
         width: 100%;
         height: 90%;
     }
-
+#elejir{
+    height: fit-content;
+}
     .texto {
         align-items: left;
         text-align: justify;
@@ -1877,7 +1936,7 @@
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 20px;
-        height: 40%;
+        height: fit-content;
         width: 100%;
         font-family: 'Merriweather', serif;
     }
@@ -2027,6 +2086,20 @@
     #H_A {
         width: 200px;
         margin-left: 0px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .contenedor-header, .contenedor-main, .contenedor-footer {
+        max-width: 640px;
+    }
+    .card_comentarios{
+        height: 400px;
+    }
+    #comentarios{
+        height: fit-content;   
+    }
+    .contenedor_cards{
+        height: fit-content;
     }
 }
 
@@ -3012,7 +3085,7 @@
 
     #elejir {
         width: 100%;
-        height: 1000px;
+        height: fit-content;
     }
 
     #elejir h1 {
@@ -3025,18 +3098,18 @@
         padding: 20px;
         width: 100%;
         margin: auto;
-        height: 100%;
+        height: fit-content;
     }
 
     .contenedor {
         margin-bottom: 10px;
         width: 100%;
-        height: 250px;
+        height: fit-content;
     }
 
     .texto {
-        padding: 10px 20px 0px 20px;
-        height: 150px;
+        padding: 10px 20px 30px 20px;
+        height: fit-content;
     }
 
     .imagen_elejir {
@@ -3156,7 +3229,7 @@
 
     #elejir {
         width: 100%;
-        height: 1000px;
+        height: fit-content;
     }
 
     #elejir h1 {
@@ -3169,18 +3242,18 @@
         padding: 20px;
         width: 100%;
         margin: auto;
-        height: 100%;
+        height: fit-content;
     }
 
     .contenedor {
         margin-bottom: 10px;
         width: 100%;
-        height: 250px;
+        height: fit-content;
     }
 
     .texto {
         padding: 10px 20px 0px 20px;
-        height: 150px;
+        height: fit-content;
     }
 
     .imagen_elejir {
@@ -3295,6 +3368,10 @@
 
     #empresas {
         height: 1350px;
+    }
+
+    #elejir, .texto, .contenedor{
+        height: fit-content;
     }
 }
 
@@ -3454,6 +3531,18 @@
     .titulo_text h1, #H_A h1, .contacto-head h1 {
         font-size: 30px;
     }
+    #elejir{
+        height: fit-content;
+    }
+    .contenedor{
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width:414px) {
@@ -3479,6 +3568,18 @@
 
     #radio5:checked~.first {
         margin-left: -1184%;
+    }
+    #elejir{
+        height: fit-content;
+    }
+    .contenedor{
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
     }
 }
 
@@ -3577,21 +3678,27 @@
 
     #servicios {
         width: 100%;
-        height: 640px;
+        height: fit-content;
     }
 
     #empresas {
         width: 100%;
-        height: 1420px;
+        height: fit-content;
     }
 
     .contenedor {
-        height: 300px;
+        height: fit-content;
         margin-bottom: 30px;
     }
-
+    
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
+    }
     #elejir {
-        height: 1220px;
+        height: fit-content;
     }
 
     .card_comentarios {
@@ -3623,24 +3730,27 @@
     #radio5:checked~.first {
         margin-left: -1255%;
     }
-
+#nosotros{
+    height: fit-content;
+}
     #servicios {
         width: 100%;
-        height: 700px;
+        height: fit-content;
     }
 
     #empresas {
         width: 100%;
-        height: 1420px;
+        height: fit-content;
     }
 
-    .contenedor {
-        height: 300px;
-        margin-bottom: 30px;
+    .contenedor{
+        height: fit-content;
     }
-
-    #elejir {
-        height: 1220px;
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
     }
 
     .card_comentarios {
@@ -3734,12 +3844,12 @@
     }
 
     #servicios {
-        height: 680px;
+        height: fit-content;
     }
 
     #empresas {
         width: 100%;
-        height: 1470px;
+        height: fit-content;
     }
 
     .mediaparte2 button {
@@ -3763,14 +3873,21 @@
     }
 
     .contenedor {
-        margin-bottom: 30px;
+        margin-bottom: 30px; 
+        height: fit-content;
     }
 
     #elejir {
         width: 100%;
         height: fit-content;
     }
-
+    
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
+    }
     .comentarios_cards {
         margin-top: 0px;
     }
@@ -3781,7 +3898,7 @@
     }
 
     #comentarios {
-        height: 1280px;
+        height: fit-content;
     }
 
     #contacto img {
@@ -3885,7 +4002,13 @@
         height: fit-content;
     }
 
-    #elejir {
+    .contenedor{
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
         height: fit-content;
     }
 
@@ -4000,12 +4123,14 @@
 
     #nosotros {
         width: 100%;
-        height: 780px;
+        height: fit-content;
         padding-top: 0%;
     }
-
+#servicios{
+    height: fit-content;
+}
     #empresas {
-        height: 1800px;
+        height: fit-content;
     }
 
     .datos {
@@ -4016,11 +4141,20 @@
         width: 100%;
         margin: auto;
     }
-
-    #elejir {
-        height: 1220px;
+#elejir{
+    height: fit-content;
+}
+    .contenedor{
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
     }
 }
+
 @media screen and (max-width: 320px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 320px;
@@ -4207,8 +4341,14 @@
         height: fit-content;
     }
 
-    .contenedor {
-        margin-bottom: 60px;
+    .contenedor{
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
+    #pqelejir{
+        height: fit-content;
     }
 
     #comentarios {
@@ -4432,12 +4572,15 @@
         height: fit-content;
     }
 
-    .contenedor {
-        width: 100%;
-        margin-bottom: 90px;
-        height: 300px;
-    }
-
+        .contenedor{
+            height: fit-content;
+        }
+        .texto{
+            height: fit-content;
+        }
+        #pqelejir{
+            height: fit-content;
+        }
     #comentarios {
         width: 100%;
         height: fit-content;
@@ -4540,4 +4683,47 @@
         height: fit-content;
     }
 
+}
+
+@media screen and (max-width: 240px) {
+    .contenedor-header, .contenedor-main, .contenedor-footer {
+        max-width: 240px;
+    }
+
+    #nosotros, #servicios, #empresas, #elejir {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .imagen img {
+        width: 170px;
+    }
+
+    .mediaparte2 button {
+        display: block;
+        position: relative;
+        margin: auto;
+        width: 100px;
+        height: 50px;
+        background: rgba(220, 47, 2, 0.84);
+        border: 2px solid #000000;
+        box-sizing: border-box;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 13px;
+        object-position: right;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        color: white;
+    }
+    .contenedor{
+        position: static;
+        margin: 30px 0px 20px 0px;
+        height: fit-content;
+    }
+    .texto{
+        height: fit-content;
+    }
 }
