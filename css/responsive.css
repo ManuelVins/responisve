@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media screen and (max-width: 1440px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1440px;
@@ -110,6 +111,7 @@
         width: 150px;
         height: 250px;
     }
+
     .imagen-servicio img {
         width: 570px;
         height: 385px;
@@ -340,19 +342,19 @@
         position: absolute;
         background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
         z-index: 2;
-      }
-      
-      .contenedor_cards::before {
+    }
+
+    .contenedor_cards::before {
         top: 0;
         left: 0;
-      }
-      
-      .contenedor_cards::after {
+    }
+
+    .contenedor_cards::after {
         top: 0;
         right: 0;
         transform: rotateZ(180deg);
-      }
-      
+    }
+
     .Contacto_Info .social-media {
         padding-left: 30%;
     }
@@ -360,6 +362,64 @@
     #contacto h1 {
         margin: auto;
         text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .contenedor-header, .contenedor-main, .contenedor-footer {
+        max-width: 1200px;
+    }
+
+    #comentarios {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .comentarios_cards {
+        width: 100%;
+        height: 100%;
+        padding-right: 1px;
+    }
+
+    #comentarios img {
+        height: 115%;
+    }
+
+    .card_comentarios {
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    .titulo_text {
+        width: 40%;
+        height: 100%;
+        text-align: justify;
+    }
+
+    .img_com {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 20px;
+        border-left: 240px solid transparent;
+        border-bottom: 22px solid rgb(255, 255, 255);
+        bottom: 0;
+    }
+
+    .dark .card_comentarios {
+        width: 100%;
+        height: 100%;
+    }
+
+    .dark .img_com {
+        width: 100%;
+        height: 50%;
+        border-top-left-radius: 20px;
+        border-left: 240px solid transparent;
+        border-bottom: 22px solid rgb(59, 58, 58);
+        bottom: 0;
     }
 
 
@@ -464,7 +524,11 @@
     }
 
     #comentarios {
-        height: 530px;
+        height: fit-content;
+    }
+
+    #comentarios img {
+        height: 118%;
     }
 
     #contacto img {
@@ -652,14 +716,14 @@
     #comentarios {
         display: grid;
         width: 100%;
-        height: 700px;
+        height: fit-content;
         background-color: rgb(255, 255, 255);
         overflow: hidden;
     }
 
     #comentarios img {
         position: absolute;
-        height: 53%;
+        height: 120%;
         width: 100%;
         margin-right: 60px;
     }
@@ -667,7 +731,7 @@
     .titulo_text {
         z-index: 2;
         width: 100%;
-        height: 30px;
+        height: fit-content;
     }
 
     .titulo_text h1 {
@@ -966,7 +1030,7 @@
     }
 
     .imagen-servicio img {
-        width: 420px;
+        width: 350px;
         height: 385px;
     }
 
@@ -1126,6 +1190,10 @@
 
     #horario, #empresas {
         height: fit-content;
+    }
+
+    .imagen-servicio img {
+        width: 350px;
     }
 }
 
@@ -1501,7 +1569,7 @@
         display: grid;
         flex-direction: column;
         width: 100%;
-        height: 1050px;
+        height: fit-content;
         background-color: rgb(255, 255, 255);
         overflow: hidden;
     }
@@ -1509,6 +1577,7 @@
     .titulo_text {
         padding-top: 20px;
         width: 100%;
+        height: fit-content;
     }
 
     .titulo_text h1 {
@@ -1523,7 +1592,7 @@
 
     .comentarios_cards {
         width: 100%;
-        height: 500px;
+        height: fit-content;
         margin-top: 5px;
         display: flex;
         justify-content: center;
@@ -2495,7 +2564,7 @@
         height: 100%;
     }
 
-   
+
     .Contacto_Info section {
         margin-left: 0px;
     }
@@ -3019,11 +3088,27 @@
     }
 
     #horario {
+        width: 100%;
+        height: fit-content;
         flex-direction: column;
+        padding: 20px;
+    }
+
+    #H_A {
+        width: 90%;
+        height: fit-content;
+        margin: 0%;
+
     }
 
     #horario h1 {
+        width: 100%;
+        margin-left: 10%;
         text-align: center;
+    }
+
+    #himg {
+        display: none;
     }
 
     .H_A img {
@@ -3464,6 +3549,7 @@
 
 }
 
+
 @media screen and (max-width:393px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 393px;
@@ -3729,77 +3815,6 @@
     }
 }
 
-@media screen and (max-width:353px) {
-    .contenedor-header, .contenedor-main, .contenedor-footer {
-        max-width: 353px;
-    }
-
-    header {
-        width: 100%;
-        height: 50px;
-        background-size: cover;
-        display: flex;
-        position: fixed;
-        flex-direction: column-reverse;
-        background-position: center;
-        border-radius: 0px 0px 30px 30px;
-        background-image: radial-gradient(circle at 0.93% 67.86%, #f5ff26 0, #ffff03 8.33%, #fffb00 16.67%, #ffe700 25%, #ffd100 33.33%, #ffb900 41.67%, #ffa001 50%, #f18811 58.33%, #e4721c 66.67%, #d86023 75%, #cd5029 83.33%, #c5422f 91.67%, #be3636 100%);
-        mix-blend-mode: normal;
-        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
-        transition: 0.7s;
-        padding-bottom: 10px;
-        padding-right: 10px;
-        z-index: 10;
-    }
-
-    #separarimg img {
-        width: 450px;
-        height: 300px;
-    }
-
-    #radio1:checked~.first {
-        margin-left: 0%;
-    }
-
-    #radio2:checked~.first {
-        margin-left: -444%;
-    }
-
-    #radio3:checked~.first {
-        margin-left: -988%;
-    }
-
-    #radio4:checked~.first {
-        margin-left: -1190%;
-    }
-
-    #radio5:checked~.first {
-        margin-left: -1535%;
-    }
-
-    #nosotros {
-        width: 100%;
-        height: 780px;
-        padding-top: 0%;
-    }
-
-    #empresas {
-        height: 1800px;
-    }
-
-    .datos {
-        width: 100%;
-    }
-
-    .datos p {
-        width: 100%;
-        margin: auto;
-    }
-
-    #elejir {
-        height: 1220px;
-    }
-}
 
 @media screen and (max-width:360px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
@@ -3935,6 +3950,77 @@
     }
 }
 
+@media screen and (max-width:353px) {
+    .contenedor-header, .contenedor-main, .contenedor-footer {
+        max-width: 353px;
+    }
+
+    header {
+        width: 100%;
+        height: 50px;
+        background-size: cover;
+        display: flex;
+        position: fixed;
+        flex-direction: column-reverse;
+        background-position: center;
+        border-radius: 0px 0px 30px 30px;
+        background-image: radial-gradient(circle at 0.93% 67.86%, #f5ff26 0, #ffff03 8.33%, #fffb00 16.67%, #ffe700 25%, #ffd100 33.33%, #ffb900 41.67%, #ffa001 50%, #f18811 58.33%, #e4721c 66.67%, #d86023 75%, #cd5029 83.33%, #c5422f 91.67%, #be3636 100%);
+        mix-blend-mode: normal;
+        box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+        transition: 0.7s;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        z-index: 10;
+    }
+
+    #separarimg img {
+        width: 450px;
+        height: 300px;
+    }
+
+    #radio1:checked~.first {
+        margin-left: 0%;
+    }
+
+    #radio2:checked~.first {
+        margin-left: -444%;
+    }
+
+    #radio3:checked~.first {
+        margin-left: -988%;
+    }
+
+    #radio4:checked~.first {
+        margin-left: -1190%;
+    }
+
+    #radio5:checked~.first {
+        margin-left: -1535%;
+    }
+
+    #nosotros {
+        width: 100%;
+        height: 780px;
+        padding-top: 0%;
+    }
+
+    #empresas {
+        height: 1800px;
+    }
+
+    .datos {
+        width: 100%;
+    }
+
+    .datos p {
+        width: 100%;
+        margin: auto;
+    }
+
+    #elejir {
+        height: 1220px;
+    }
+}
 @media screen and (max-width: 320px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 320px;
