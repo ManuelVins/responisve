@@ -33,9 +33,11 @@ html {
 .datos {
   display: flex;
 }
-#nosotros{
+
+#nosotros {
   height: fit-content;
 }
+
 #nosotros h1 {
   margin: 30px;
   text-align: left;
@@ -153,9 +155,10 @@ html {
 /*--------------------------------------Productos----------------------------------------------------------------------------*/
 
 #productos {
-  height: fit-content;
+  height: 800px;
   width: 100%;
   margin: 0;
+  padding-bottom: 30px;
 }
 
 #productos h1 {
@@ -170,7 +173,7 @@ html {
 
 .contenedor_cards {
   background: linear-gradient(180deg, #FFFFFF 0%, #FFD166 34.77%, #FFD166 73.44%, #FFFFFF 100%);
-  height: 450px;
+  height: fit-content;
   width: 100%;
   margin-top: 30px;
   padding-left: 200px;
@@ -220,7 +223,7 @@ html {
 
 .card {
   width: auto;
-  height: 350px;
+  height: fit-content;
   border: black solid 1px;
   margin: 10px;
   transition: all 200ms;
@@ -232,7 +235,7 @@ html {
 }
 
 .card:hover {
-  height: 400px;
+  height: fit-content;
   opacity: 1;
   transform: scale(1.1);
   background: linear-gradient(180deg, #EE0404 0%, #F48C06 49.48%, #FFD166 100%);
@@ -270,6 +273,7 @@ html {
   transition: all 300ms;
   border-radius: 10px;
   text-align: justify;
+  height: 240px;
 }
 
 .card:hover .descripcion_card {
@@ -277,38 +281,39 @@ html {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  height: 300px;
 }
 
 .card .descripcion_card h2 {
   text-align: center;
   margin-top: 10px;
   font-family: 'Roboto Slab', serif;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .card:hover .descripcion_card h2 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .card .descripcion_card p:first-of-type {
   font-weight: bold;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: 'Merriweather', serif;
 }
 
 .card:hover .descripcion_card p:first-of-type {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .card .descripcion_card p {
   margin-top: 10px;
-  font-size: 10px;
+  font-size: 15px;
   font-family: 'Merriweather', serif;
 }
 
 .card:hover .descripcion_card p {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 /*--------------------------------------Empresas----------------------------------------------------------------------------*/
@@ -339,6 +344,7 @@ html {
 .empresas-icon {
   margin: auto;
 }
+
 .unam {
   position: static;
   width: 100px;
@@ -517,7 +523,8 @@ html {
   color: red;
   margin: 50px 50px 50px 50px;
 }
-#empresas{
+
+#empresas {
   height: fit-content;
 }
 
@@ -698,17 +705,19 @@ html {
   width: 600px;
   height: 500px;
 }
-#H_A{
+
+#H_A {
   width: 40%;
   height: 100%;
 }
+
 #H_A h1 {
   margin: 30px;
   text-align: center;
   display: grid;
   font-family: 'Roboto Slab', serif;
   font-size: 40px;
-  
+
 }
 
 #H_A img {
@@ -740,10 +749,11 @@ html {
 }
 
 /*--------------------------------------Contactos----------------------------------------------------------------------------*/
-.contacto-head{
+.contacto-head {
   display: flex;
   margin: 30px;
 }
+
 #contacto h1 {
   margin-left: 42%;
   margin-right: 0%;
@@ -752,9 +762,11 @@ html {
   font-size: 40px;
   text-align: center;
 }
-#contacto{
+
+#contacto {
   height: fit-content;
 }
+
 #contacto img {
   margin-left: 80%;
   width: 150px;
