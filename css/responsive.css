@@ -1469,6 +1469,7 @@
     }
 
     .menu {
+        width: 300px;
         padding-top: 50px;
         flex-direction: column;
     }
@@ -1489,7 +1490,7 @@
         position: fixed;
         background: rgba(255, 255, 255, 0.336);
         max-width: 200px;
-        margin-left: 4%;
+        margin-left: 11%;
         margin-right: 6%;
         margin-top: 120px;
         height: 50px;
@@ -4704,6 +4705,16 @@
         margin-left: -1255%;
     }
 
+    #icon-menu {
+        width: 50px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        right: 1%;
+        margin-top: 8%;
+    }
+
     #nosotros {
         height: fit-content;
         padding-bottom: 50px;
@@ -5395,7 +5406,15 @@
         max-width: 320px;
     }
 
-
+    #icon-menu {
+        width: 50px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        right: 1%;
+        margin-top: 10%;
+    }
 
     #logo {
         margin-top: 10px;
