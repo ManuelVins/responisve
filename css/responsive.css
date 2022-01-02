@@ -1469,7 +1469,6 @@
     }
 
     .menu {
-        width: 300px;
         padding-top: 50px;
         flex-direction: column;
     }
@@ -1483,7 +1482,6 @@
         margin-left: 25%;
         margin-right: 25%;
         margin-bottom: 10%;
-        
     }
 
     .submenu {
