@@ -183,14 +183,19 @@ header {
   background: white;
   padding: 30px 80px 30px 30px;
 }
-.texto ul{
+
+.texto ul {
+  width: 100%;
   height: 300px;
   margin-bottom: 20px;
 }
+
 .texto ul li {
+  width: 100%;
   margin-bottom: 10px;
   margin-left: 30px;
   font-size: 22px;
+  text-align: justify;
   font-family: 'Merriweather', serif;
 }
 
@@ -251,4 +256,235 @@ hr {
 
 .piedepagina label:first-of-type {
   color: white;
+}
+
+
+
+/*responsive*/
+@media screen and (max-width: 768px) {
+  header, main, footer {
+    max-width: 768px;
+  }
+
+  .iconos {
+    padding-left: 37%;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  header, main, footer {
+    max-width: 676px;
+  }
+
+  .texto ul {
+    margin-bottom: 100px;
+  }
+
+  .servicios-grid {
+    padding-right: 20px;
+    padding-left: 30px;
+  }
+
+  .servicios {
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  header, main, footer {
+    max-width: 525px;
+  }
+
+  .texto ul {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header, main, footer {
+    max-width: 500px;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  #logo {
+    width: auto;
+    height: 60px;
+    margin-right: 0%;
+  }
+
+  #nombre {
+    margin-left: 0%;
+    width: 100px;
+    height: 50px;
+  }
+
+  .nosotros h1 {
+    font-size: 38px;
+    padding-top: 100px;
+  }
+
+  .datos p {
+    font-size: 20px;
+  }
+
+  .servicios-grid {
+    grid-template-columns: 100%;
+  }
+
+  .servicios {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .texto ul {
+    margin-bottom: 0px;
+  }
+
+  .iconos {
+    padding-left: 32%;
+  }
+
+  .piedepagina {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header, main, footer {
+    max-width: 425px;
+  }
+
+  .menu-2 {
+    margin-left: 20px;
+  }
+
+  #logo {
+    width: auto;
+    height: 50px;
+  }
+
+  #nombre {
+    left: 70px;
+    width: 70px;
+    height: 50px;
+  }
+.superior h1{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20%;
+}
+  .iconos {
+    padding-left: 28%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header, main, footer {
+    max-width: 320px;
+  }
+
+  .menu_items a {
+    font-size: 15px;
+  }
+
+  .menu_items a span {
+    display: none;
+  }
+
+  .texto {
+    padding-bottom: 60px;
+  }
+.superior h1{
+  padding-top: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+  .socila-media h1 {
+    font-size: 35px;
+  }
+
+  hr {
+    width: 80%;
+  }
+
+  .iconos {
+    padding-left: 18%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header, main, footer {
+    max-width: 280px;
+  }
+
+  header {
+    border-radius: 0%;
+  }
+
+  .nav {
+    padding-right: 0%;
+  }
+
+  .menu_items a {
+    right: 0%;
+    margin-right: 0%;
+    font-size: 15px;
+  }
+
+  .texto ul li{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .superior h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  header, main, footer {
+    max-width: 240px;
+  }
+
+  header {
+    border-radius: 0%;
+  }
+
+  #nombre {
+    width: 0%;
+    height: 0%;
+    display: none;
+  }
+
+  .nav {
+    padding-right: 0%;
+  }
+
+  .menu_items a {
+    right: 0%;
+    margin-right: 0%;
+    font-size: 15px;
+  }
+
+  .texto ul {
+    margin-bottom: 80px;
+  }
+
+  .superior h1 {
+    padding-top: 30%;
+  }
+
+  #face, #whats {
+    width: 40px;
+    height: 40px;
+  }
 }

@@ -685,8 +685,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 1024px) {
     .contenedor-header, .contenedor-main, .contenedor-footer {
         max-width: 1024px;
